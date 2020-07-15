@@ -29,9 +29,9 @@
  
  ![1](https://github.com/gauravsjc02/DevOps-Task3/blob/master/task3.0/dockerfile.png)
  
- After this we build it using the command <b> docker build -t kubejenkins:v2<b>
+ After this we build it using the command <b> docker build -t kubejenkins:v2  .<b>
   
- Here, kubejenkins is the image name and v2 is the version name.
+ Here, kubejenkins is the image name, v2 is the version name and '.' refers to the location where Dockerfile is located..
  
  To upload this image on DockerHub use:-
  
